@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    z-index: 1000; /* Pour s'assurer qu'il est au-dessus du contenu */
+  }
+  
+  body {
+    padding-top: 80px; /* Ajuste en fonction de la hauteur de ton header */
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav li a button {
+    background-color: rgb(68, 68, 182);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
